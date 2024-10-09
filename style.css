@@ -1,0 +1,68 @@
+/* Global Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.hero {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+
+/* Left Side */
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-left p {
+    color: #555;
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/* Right Side */
+
+.hero-right {
+    flex: 1;
+}
+
+.hero-right img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
